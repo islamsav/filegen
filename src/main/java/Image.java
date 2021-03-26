@@ -29,6 +29,13 @@ public class Image {
         this.build();
     }
 
+    public Image(Dimension dimension, Color backgroundColor, String path) {
+        this.dimension = dimension;
+        this.backgroundColor = backgroundColor;
+        this.path = Paths.get(path);
+        this.build();
+    }
+
     public Image() {
     }
 
