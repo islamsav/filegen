@@ -25,7 +25,6 @@ OR
                 .format("png")
                 .size(600, 800)
                 .text("THIS JUST TEXT", Color.RED, 32)
-                .text("text", Color.GREEN, 50)
                 .path("image2.png")
                 .build();
 ```
